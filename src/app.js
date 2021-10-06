@@ -57,5 +57,7 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
+search("Buenos Aires");
+
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
